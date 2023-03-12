@@ -1,0 +1,121 @@
+div#color{background-color: rgba(0, 0, 0, 0.800);}
+
+ul#menu1{ width: 70%;float: left; text-align: right;}
+ul>li{display: inline-block;padding-left: 20px;padding-right: 20px;margin-top: 80px;color:white;font-family: serif;font-size: x-large;font-weight: 900;}
+li.Home{border-bottom: 3px solid darkgray;}
+ul>li:hover{border-bottom:3px solid darkgray;}
+
+div#facebook>a{position: relative; top:80px;left:150px; margin-left: 10px;}
+
+
+div.logofisso{z-index: 1000; height: 320px;width: 320px;position:absolute; top:400px;left:600px;}
+img{z-index: 1;}
+
+
+h2{color: white;text-align: center;font-size: 32px;font-family: Georgia, 'Times New Roman', Times, serif;}
+h1{color: white;text-align: center;font-size: 50px;}
+p.benvenuti{color:white; text-align: center; padding-left: 80px;padding-right: 80px;}
+ul#menu2{text-align: center;}
+ul#menu2>li{display: inline-block;color:white;font-family: serif;font-size: x-large;font-weight: 900;
+border:2px solid white;background: linear-gradient(to right, rgba(126, 55, 0, 0.91),rgb(223, 130, 76));
+padding:10px;margin-left: 20px;margin-right:20px; 
+}
+ul#menu2>li:hover{border: 2px solid rgb(230, 109, 27); color:yellow;}
+a{color: white; font-size: 40px;}
+div.icon>a>i{font-size: 30px; color: white;margin-left: 15px;position: relative; top:80px;left:150px;}
+#flag{font-size: 100px; position: absolute;left:100px;top:50px;}
+ 
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    width: 1500px;
+    height: 800px;
+  }
+  
+  .mySlides {
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .mySlides:first-child {
+    display: block;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    cursor: pointer;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+ tr#img>th,th.img2, th.tab3{width: 400px;height: 350px;}
+.conteiner{display:flex;background-color: white;padding-top:100px;padding-bottom: 100px;}
+.contentimg{flex:1;text-align: center;}
+.contenttext{flex:1;}
+h3{color:darkgoldenrod}
+p{font-family: 'Nunito', sans-serif;font-size: 15px;color:#626166}
+div.contenttext>table{width:200px;height: 40px;border:2px solid orange;background-color: orange;}
+table.burger{position: relative;top:50px;border-collapse: collapse;}
+
+th.img4{font-family:'Times New Roman', Times, serif; font-weight:bold;color: white;font-size: 30px;opacity: 0.5;}
+th.img4:hover{opacity: 1;}
+th.img3{font-family:'Times New Roman', Times, serif; font-weight:bold;color: white;font-size: 30px;opacity: 0.5;}
+th.img3:hover{opacity: 1;}
+th.img1{font-family:'Times New Roman', Times, serif; font-weight:bold;color: white;font-size: 30px;opacity: 0.5;}
+th.img1:hover{opacity: 1;}
+th.img{font-family:'Times New Roman', Times, serif; font-weight:bold;color: white;font-size: 30px;opacity: 0.5;}
+th.img:hover{opacity: 1;}
+div#record{color:white;text-align: center;padding:50px;background-color:rgba(0, 0, 0, 0.800);}
+p#record{font-size: 16px;color: white;}
+p#tab3{font-size: 28px; color: white;opacity: 0.7;transition: opacity 1s;}
+p#tab3:hover{opacity: 0;}
+div#slideconteiner{background-image:radial-gradient(ellipse at top, #565656, transparent),            radial-gradient(ellipse at bottom, #dba24d, transparent), url(./slider2.jpg);box-shadow: 2cm;height:850px;
+background-repeat: no-repeat; width: 1500px;height: 1000px;overflow: hidden;}
+div#textconteiner{width:3000px;display: flex;position: relative;transition: all 4s;}
+h4{ color: white;font-size: 32px;text-align: center;padding-top:20%; padding-left: 20%;padding-right: 20%;}
+p#slide{color: white; font-size: 20px; padding-left: 20%;padding-right: 20%;}
+h5{ color: white;font-size: 32px;text-align: center; padding-left: 20%;padding-right: 20%;}
+div#slide1{width:1500px;flex:1;}
+div#slide2{width: 1500px;flex:1;}
+div#textconteiner:hover{left:-1500px;}
+div#conteiner2{display:flex;background-color: rgba(255, 255, 255, 0.878);padding-top:100px;}
+div#text2{flex:1;padding-left:150px;padding-right: 100px;}
+div#img2{flex:1;}
+div#text2>h1{color:black; font-size:32px;text-align: left;font-family:Georgia, 'Times New Roman', Times, serif;}
+div#text2>h2{color:black; font-size:32px;text-decoration: underline;text-align: left;font-family:Georgia, 'Times New Roman', Times, serif;}
+div#work>h1{color:black; font-size:32px;text-decoration: underline;text-align: center;font-family:Georgia, 'Times New Roman', Times, serif;}
+div#work>h3{color:darkgoldenrod;text-align: center;font-size: 24px;}
+div#work{background-color: white;}
+div#infoconteiner{display: flex; height: 500px; background-color: black;}
+div#info{flex:1;}
+div#vuoto{flex:1;}
+div#orari{flex:1;}
+div#logofoot{flex:1;}
+div#info>h3{color: #f86815;font-size: 28px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+div#info>p{color:white;font-size: 22px;}
+div#orari>h3{color: #f86815;font-size: 28px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+div#orari>p{color:white;font-size: 22px;}
+div.icon2>a:hover{color:#f86815}
+div.icon2>a>i{padding-left:15px;}
